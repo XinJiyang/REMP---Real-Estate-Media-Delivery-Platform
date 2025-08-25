@@ -68,20 +68,20 @@ REMP/
 ```
 ```bash
 REMP-API/
-└── src/
-    ├── Controllers/               # API controllers
-    ├── Services/                  # Business logic layer
-    ├── Repository/                # Data access layer
-    ├── Domain/                    # Domain models
-    ├── Data/                      # EF Core DbContext
-    ├── Collection/                # MongoDB collections
-    ├── DTOs/                      # Data Transfer Objects
-    ├── Validators/                # FluentValidation rules
-    ├── Mappers/                   # AutoMapper profiles
-    ├── Exceptions/ Middlewares/   # Exception handling middleware
-    ├── Common/ (Constants, Enums, Utilities)
-    ├── Migrations/                # EF Core migrations
-    └── Tests/                     # Unit tests
+├── src/
+├── Controllers/               # API controllers
+├── Services/                  # Business logic layer
+├── Repository/                # Data access layer
+├── Domain/                    # Domain models
+├── Data/                      # EF Core DbContext
+├── Collection/                # MongoDB collections
+├── DTOs/                      # Data Transfer Objects
+├── Validators/                # FluentValidation rules
+├── Mappers/                   # AutoMapper profiles
+├── Exceptions/ Middlewares/   # Exception handling middleware
+├── Common/ (Constants, Enums, Utilities)
+├── Migrations/                # EF Core migrations
+└── Tests/                     # Unit tests
 ```
 
 ---
